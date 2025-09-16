@@ -1,2 +1,3 @@
+import sys
 
-print("hello world!")
+print("hello {}!".format(sys.argv[1]))
